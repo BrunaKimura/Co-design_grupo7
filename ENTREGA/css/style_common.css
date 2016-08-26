@@ -3,7 +3,7 @@
    height: 200px;
    margin: 10px;
    float: left;
-   border: 10px solid #fff;
+   border: 10px solid #fff; /* cor da borda */
    overflow: hidden;
    position: relative;
    text-align: center;
@@ -13,7 +13,7 @@
    cursor: default;
    background: #fff url(../images/bgimg.jpg) no-repeat center center;
 }
-.view .mask,.view .content {
+.view .mask,.view .content { /* .content faz os textos ficarem ao lado da imagem */
    width: 300px;
    height: 200px;
    position: absolute;
@@ -23,16 +23,16 @@
 }
 .view img {
    display: block;
-   position: relative;
+   position: relative; 
 }
 .view h2 {
    text-transform: uppercase;
-   color: #fff;
+   color: #fff; /* cor do titulo */
    text-align: center;
    position: relative;
    font-size: 17px;
    padding: 10px;
-   background: rgba(0, 0, 0, 0.8);
+   background: rgba(0, 0, 0, 0.8); /* cor do back do titulo */
    margin: 20px 0 0 0;
 }
 .view p {
@@ -40,7 +40,7 @@
    font-style: italic;
    font-size: 12px;
    position: relative;
-   color: #fff;
+   color: #fff; /* cor do texto */
    padding: 10px 20px 20px;
    text-align: center;
 }
@@ -48,8 +48,8 @@
    display: inline-block;
    text-decoration: none;
    padding: 7px 14px;
-   background: #000;
-   color: #fff;
+   background: #000; /* cor do back do Read More */
+   color: #fff; /* cor do read more */
    text-transform: uppercase;
    -webkit-box-shadow: 0 0 1px #000;
    -moz-box-shadow: 0 0 1px #000;
