@@ -1,0 +1,7 @@
+* { margin: 0; padding: 0;} /*Reset*/
+
+	body { background: #000; }
+div { background: #eee; margin: 200px 200px; width: 300px; height: 300px; }	
+	h1 { position: relative; top: 20px; left: 20px; }
+	h2 { top: 20px; left: 20px; }
+	a { position: relative; top: 250px; left: 250px}
