@@ -1,15 +1,15 @@
 .view {
    width: 200px;
    height: 300px;
-   margin: 10px;
+   margin:  10px;
    float: left;
-   border: 10px solid #fff; /* cor da borda */
+   border: 5px solid #fff; /* cor da borda */
    overflow: hidden;
    position: relative;
    text-align: center;
-   -webkit-box-shadow: 1px 1px 2px #e6e6e6;
+   /*-webkit-box-shadow: 1px 1px 2px #e6e6e6;
    -moz-box-shadow: 1px 1px 2px #e6e6e6;
-   box-shadow: 1px 1px 2px #e6e6e6;
+   /*box-shadow: 1px 1px 2px #e6e6e6;*/
    cursor: default;
    background: #fff url(../images/bgimg.jpg) no-repeat center center;
 }
@@ -38,10 +38,10 @@
 .view p {
    font-family: Georgia, serif;
    font-style: italic;
-   font-size: 12px;
+   font-size: 18px;
    position: relative;
    color: #fff; /* cor do texto */
-   padding: 10px 20px 20px;
+  /* padding: 10px 20px 20px;*/
    text-align: center;
 }
 .view a.info {
