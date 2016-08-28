@@ -5,7 +5,7 @@
 	<title>Maria Clara</title>
 
 	<style type="text/css" title='aindanaoseiporemoutroarquivo' media='all'>
-		<!--
+		
 		body {
 			background-color: #000000;
 			color: #ffffff;
@@ -34,17 +34,53 @@
 			text-align: center;
 			font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 		}
-		-->
+		 /* essa parte vai pro css também depois */
+		body{
+			    width:1024px;
+			}
+
+			.areaImagem{
+			    float:left;
+			    margin-top:15px;
+			}
+
+			.areaImagem img{
+			    width:200px;
+			}
+
+			.areaTexto p{
+			    float:left;
+			    max-width:800px;
+			    margin-left:15px;
+			}
+			
+			.areaLink a{
+				float:left;
+			    max-width:100px;
+			    margin-top:90px;
+			    margin-left:15px;
+			    margin-right:700px;
+			}
 	</style>
 
 
 </head>
 <body>
-	<img src="../image/ovelha.jpg" width="160" height="240" align="left" border="5px">
-	<h2>Maria Clara Lorenzetti Luques</h2>
-	<p>Olá. Meu nome é Maria Clara, tenho 18 anos, e estou no segundo semestre de Engenharia Mecatrônica no Insper.</p>
-	<p>Eu gosto de cozinhar, ler livros, assistir series e animes e Harry Potter.  </p>
+	<div class="areaImagem">
+		<img src="../image/ovelha.jpg" width="180" height="240" align="left" border="5px" >
 
+	</div>
+
+	<h2 >Maria Clara Lorenzetti Luques</h2>
+
+	<div class="areaTexto">
+	<p >Olá. Meu nome é Maria Clara, tenho 18 anos, e estou no segundo semestre de Engenharia Mecatrônica no Insper.</p>
+	<p>Eu gosto de cozinhar, ler livros, assistir series e animes e Harry Potter.  </p>
+	</div>
+
+	<div class="areaLink">
 	<a href="../MAINPAGE.html">Página Inicial</a>
+	</div>
+
 </body>
 </html>
