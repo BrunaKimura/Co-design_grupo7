@@ -4,6 +4,14 @@
 	<meta charset='utf-8'>
 	<link rel="stylesheet" type="text/css" href="css/style_common.css" />
     <link rel="stylesheet" type="text/css" href="css/style1.css" />
+    <link rel="stylesheet" type="texte/css" href="css/SlideShow" />
+	<link rel="stylesheet" type="texte/css" href="css/SlideShowTwo" />
+	<link href="//static.cmptch.com/v/lib/style.css?1472392790" rel="stylesheet" type="text/css" media="screen">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="https://partners.cmptch.com/et?5"></script>
+
+
 	<title>Página principal</title>
 
 
@@ -33,37 +41,34 @@
 		
 	</style>
 
-	<style type="text/css">
-		.fadein { position:relative; width:210 height:300;  }
-		.fadein img { position:absolute; left:0; top:0; }
-	</style>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-
-	<script type="text/javascript">
-		
-		$(function(){
-			$('.fadein img:gt(0)').hide();
-			setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 2000);
-		});
-
-	</script>
-	
 </head>
 <body>
+
+	<script type="text/javascript">
+		$(function(){
+		  $('.multipleslides').each(function(){
+		    // scope everything for each slideshow
+		    var $this = this;
+		    $('> :gt(0)', $this).hide();
+		    setInterval(function(){$('> :first-child',$this).fadeOut().next().fadeIn().end().appendTo($this);}, 3000);
+		  	})
+		});
+	</script>
+
 
 	<div>
 		<h1>Projetos</h1>
 		<h3>Descrição da página</h3>
-		<p>&nbsp;</p>
 		<div class="main">
 	        <div class="view view-first">
-	        	<div class= "fadein">
-				<img src="image/ovelha.jpg" border="0" width="210" height="300"></a>
-				<img src="https://farm3.static.flickr.com/2610/4148988872_990b6da667.jpg" width="210" height="300">
-				<img src="https://farm3.static.flickr.com/2597/4121218611_040cd7b3f2.jpg" width="210" height="300">
-				</div>
-					<div class="mask roxo">
+		        	<div class="multipleslides">
+					<img src="image/ovelha.jpg" border="0" width="210" height="300"></a>
+					<img src="https://farm3.static.flickr.com/2610/4148988872_990b6da667.jpg" width="210" height="300">
+					<img src="https://farm3.static.flickr.com/2597/4121218611_040cd7b3f2.jpg" width="210" height="300">
+					</div>
+
+				<div class="mask roxo">
 		                <h2>Maria Clara Luques</h2>
 		                <p>Engenharia Mecatrônica </p>
 		                <p>(2º Semestre)</p>
@@ -75,7 +80,11 @@
 
 		<div class="main">
 	        <div class="view view-first">
-				<a href="Bruna/B_Sobremim.html"><img src="image/panda.jpg" border="0" width="210" height="300"></a>
+	        	<div class="multipleslides">
+		        	<img src="image/panda.jpg" border="0" width="210" height="300"></a>
+					<img src="https://farm3.static.flickr.com/2610/4148988872_990b6da667.jpg" width="210" height="300">
+					<img src="https://farm3.static.flickr.com/2597/4121218611_040cd7b3f2.jpg" width="210" height="300">
+				</div>
 					<div class="mask blue">
 		                <h2>Bruna Kimura</h2>
 		                <p>Engenharia da Computação</p>
@@ -88,7 +97,11 @@
 		<div class="main">
 
 	        <div class="view view-first">
-				<a href="Felipe/F_Sobremim.html"><img src="image/coala.jpg" border="0" width="210" height="300"></a>
+	        	<div class="multipleslides">
+					<img src="image/coala.jpg" border="0" width="210" height="300"></a>
+					<img src="https://farm3.static.flickr.com/2610/4148988872_990b6da667.jpg" width="210" height="300">
+					<img src="https://farm3.static.flickr.com/2597/4121218611_040cd7b3f2.jpg" width="210" height="300">
+				</div>
 					<div class="mask laranja">
 		                <h2>Felipe Scandiuzzi</h2>
 		                <p>Engenharia <br> Mecânica</p>
@@ -100,7 +113,11 @@
 
 		<div class="main">
 	        <div class="view view-first">
-				<a href="Victor/V_Sobremim.html"><img src="image/marmota.jpg" border="0" width="210" height="300" ></a>
+	        	<div class="multipleslides">
+					<img src="image/marmota.jpg" border="0" width="210" height="300" ></a>
+					<img src="https://farm3.static.flickr.com/2610/4148988872_990b6da667.jpg" width="210" height="300">
+					<img src="https://farm3.static.flickr.com/2597/4121218611_040cd7b3f2.jpg" width="210" height="300">
+				</div>
 					<div class="mask verde">
 		                <h2>Victor Hugo Leal</h2>
 		                <p>Engenharia Mecatrônica</p>
