@@ -3,8 +3,15 @@
 <head>
 	<meta charset='utf-8'>
 	<title>Maria Clara</title>
+	<link rel="stylesheet" type="text/css" href="css/style_common.css" />
+    <link rel="stylesheet" type="text/css" href="css/style1.css" />
+	<link href="//static.cmptch.com/v/lib/style.css?1472392790" rel="stylesheet" type="text/css" media="screen">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	
 
 	<style type="text/css" title='aindanaoseiporemoutroarquivo' media='all'>
+
 		
 		body {
 			background-color: #000000;
@@ -47,12 +54,14 @@
 
 			.areaImagem img{
 			    width:180px;
+			    margin-left: 10px;
+			    margin-right: 10px;
 			}
 
 			.areaTexto p{
 			    float:left;
 			    max-width:800px;
-			    margin-left:20px;
+			    margin-left:10px;
 			}
 			
 			.areaLink a{
@@ -70,11 +79,22 @@
    					background: #ffffff; /* cor do back do Read More */
    					color: #000000; /* cor do read more */
    					text-transform: uppercase;
-   -webkit-box-shadow: 0 0 1px #000;
-   -moz-box-shadow: 0 0 1px #000;
-   box-shadow: 0 0 1px #000;
+  					-webkit-box-shadow: 0 0 1px #000;
+                    -moz-box-shadow: 0 0 1px #000;
+   					box-shadow: 0 0 1px #000;
 			}
 	</style>
+
+	<script type="text/javascript">
+		$(function(){
+		  $('.multipleslides').each(function(){
+		    // scope everything for each slideshow
+		    var $this = this;
+		    $('> :gt(0)', $this).hide();
+		    setInterval(function(){$('> :first-child',$this).fadeOut().next().fadeIn().end().appendTo($this);}, 2000);
+		  	})
+		});
+	</script>
 
 
 </head>
@@ -87,8 +107,7 @@
 	<h2 >Maria Clara Lorenzetti Luques</h2>
 
 	<div class="areaTexto">
-	<p >Olá. Meu nome é Maria Clara, tenho 18 anos, e estou no segundo semestre de Engenharia Mecatrônica no Insper.</p>
-	<p>Eu gosto de cozinhar, ler livros, assistir series e animes e Harry Potter.  
+	<p >Olá. Meu nome é Maria Clara, tenho 18 anos, e estou no segundo semestre de Engenharia Mecatrônica no Insper.Eu gosto de cozinhar, ler livros, assistir series e animes e Harry Potter.  
 	auhcaudhcaodhcsd
 	cusbducsbdcubsducbsudcbsudbcsudbcusbdcusbdcsubdcusbdcusbdcusbdcusbduc
 	bsducbsudbcsudbcusdbcusbdcusbdcusbdcubsudcbsudbcsudbcsudbcsudbcsudbcu
@@ -102,22 +121,27 @@
 	aisdhaisd asi ajsidha ihdiashdaishdaihdiash
 	aishdaihd as isdiashdiashdias iahsdiahabciabi
 	ashaishd aishaisdiash iashdaishdiasd iashaifh
-	acodci oasihcao aosi aohoaidoasid aohsidaosi
-		iasdjasidj iajsdiaj  aisjdiajsd iasjaisjda
+			iasdjasidj iajsdiaj  aisjdiajsd iasjaisjda
 	aisdhaisd asi ajsidha ihdiashdaishdaihdiash
 	aishdaihd as isdiashdiashdias iahsdiahabciabi
-	ashaishd aishaisdiash iashdaishdiasd iashaifh </p>
+	ashaishd aishaisdiash iashdaishdiasd iashaifh  </p>
 	</div>
 	<p></p>
+	<p></p>
+		<p></p>
 
 	<div class="areaImagem">
-		<img src="../image/eletronica.jpg" width="140" height="240" align="center" border="5px">
+
+		<img src="../image/eletronica.jpg" width="140" height="240" align="left" border="5px">
+		<img src="../image/prototipagem.jpg" width="140" height="240" border="5px">
+		<img src="../image/progamacao.jpg" width="140" height="240" border="5px">
+
 	</div>
-	<div class="areaLink">
+<!--	<div class="areaLink">
 		<div class="caixalink"></div>
 			<a href="../MAINPAGE.html">Página Inicial</a>
 		</div>
-	</div>
+	</div>-->
 
 
 </body>
