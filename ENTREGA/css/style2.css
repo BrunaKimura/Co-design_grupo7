@@ -39,9 +39,15 @@ body{
 }
 
 .areaImagem img{
-    width:180px;
+    width:100px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.areaImagem2 img{
+	width:160px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .areaTexto p{
