@@ -1,112 +1,71 @@
-.view-second img {
-   -webkit-transition: all 0.2s ease-in;
-   -moz-transition: all 0.2s ease-in;
-   -o-transition: all 0.2s ease-in;
-   -ms-transition: all 0.2s ease-in;
-   transition: all 0.2s ease-in;
+
+body {
+	background-color: #000000;
+	color: #ffffff;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	margin-right: 180px;
+	margin-left: 180px;
+	align-self: center;
+	text-align: center;
+	font-size: 15px;
+	padding-left: 15px;
 }
-.view-second .mask {
-   background-color: rgba(115,146,184, 0.7);
-   width: 300px;
-   padding: 60px;
-   height: 300px;
-   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
-   filter: alpha(opacity=0);
-   opacity: 0;
-   -webkit-transform: translate(265px, 145px) rotate(45deg);
-   -moz-transform: translate(265px, 145px) rotate(45deg);
-   -o-transform: translate(265px, 145px) rotate(45deg);
-   -ms-transform: translate(265px, 145px) rotate(45deg);
-   transform: translate(265px, 145px) rotate(45deg);
-   -webkit-transition: all 0.2s ease-in-out;
-   -moz-transition: all 0.2s ease-in-out;
-   -o-transition: all 0.2s ease-in-out;
-   -ms-transition: all 0.2s ease-in-out;
-   transition: all 0.2s ease-in-out;
+h1 {
+	text-align: center;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: 80px;
+	letter-spacing: 10px;
 }
-.view-second h2 {
-   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-   background: transparent;
-   margin: 20px 40px 0px 40px;
-   -webkit-transform: translate(200px, -200px);
-   -moz-transform: translate(200px, -200px);
-   -o-transform: translate(200px, -200px);
-   -ms-transform: translate(200px, -200px);
-   transform: translate(200px, -200px);
-   -webkit-transition: all 0.2s ease-in-out;
-   -moz-transition: all 0.2s ease-in-out;
-   -o-transition: all 0.2s ease-in-out;
-   -ms-transition: all 0.2s ease-in-out;
-   transition: all 0.2s ease-in-out;
+h2 {
+	text-align: center;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: 30px;
+	position: relative;
 }
-.view-second p {
-   -webkit-transform: translate(-200px, 200px);
-   -moz-transform: translate(-200px, 200px);
-   -o-transform: translate(-200px, 200px);
-   -ms-transform: translate(-200px, 200px);
-   transform: translate(-200px, 200px);
-   -webkit-transition: all 0.2s ease-in-out;
-   -moz-transition: all 0.2s ease-in-out;
-   -o-transition: all 0.2s ease-in-out;
-   -ms-transition: all 0.2s ease-in-out;
-   transition: all 0.2s ease-in-out;
+h3 {
+	text-align: center;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
-.view-second a.info {
-   -webkit-transform: translate(0px, 100px);
-   -moz-transform: translate(0px, 100px);
-   -o-transform: translate(0px, 100px);
-   -ms-transform: translate(0px, 100px);
-   transform: translate(0px, 100px);
-   -webkit-transition: all 0.2s 0.1s ease-in-out;
-   -moz-transition: all 0.2s 0.1s ease-in-out;
-   -o-transition: all 0.2s 0.1s ease-in-out;
-   -ms-transition: all 0.2s 0.1s ease-in-out;
-   transition: all 0.2s 0.1s ease-in-out;
+
+body{
+	    width:1024px;
+	}
+
+.areaImagem{
+    float:left;
+    margin-top:10px;
+
 }
-.view-second:hover .mask {
-   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
-   filter: alpha(opacity=100);
-   opacity: 1;
-   -webkit-transform: translate(-80px, -125px) rotate(45deg);
-   -moz-transform: translate(-80px, -125px) rotate(45deg);
-   -o-transform: translate(-80px, -125px) rotate(45deg);
-   -ms-transform: translate(-80px, -125px) rotate(45deg);
-   transform: translate(-80px, -125px) rotate(45deg);
+
+.areaImagem img{
+    width:180px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-.view-second:hover h2 {
-   -webkit-transform: translate(0px,0px);
-   -moz-transform: translate(0px,0px);
-   -o-transform: translate(0px,0px);
-   -ms-transform: translate(0px,0px);
-   transform: translate(0px,0px);
-   -webkit-transition-delay: 0.3s;
-   -moz-transition-delay: 0.3s;
-   -o-transition-delay: 0.3s;
-   -ms-transition-delay: 0.3s;
-   transition-delay: 0.3s;
+
+.areaTexto p{
+    float:left;
+    max-width:800px;
+    margin-left:10px;
 }
-.view-second:hover p {
-   -webkit-transform: translate(0px,0px);
-   -moz-transform: translate(0px,0px);
-   -o-transform: translate(0px,0px);
-   -ms-transform: translate(0px,0px);
-   transform: translate(0px,0px);
-   -webkit-transition-delay: 0.4s;
-   -moz-transition-delay: 0.4s;
-   -o-transition-delay: 0.4s;
-   -ms-transition-delay: 0.4s;
-   transition-delay: 0.4s;
+
+.areaLink a{
+	float:left;
+    max-width:100px;
+    margin-top:90px;
+    margin-left:15px;
+    margin-right:700px;
 }
-.view-second:hover a.info {
-   -webkit-transform: translate(0px,0px);
-   -moz-transform: translate(0px,0px);
-   -o-transform: translate(0px,0px);
-   -ms-transform: translate(0px,0px);
-   transform: translate(0px,0px);
-   -webkit-transition-delay: 0.5s;
-   -moz-transition-delay: 0.5s;
-   -o-transition-delay: 0.5s;
-   -ms-transition-delay: 0.5s;
-   transition-delay: 0.5s;
+
+.caixalink a{
+	    display: inline-block;
+			text-decoration: none;
+			padding: 7px 14px;
+			background: #ffffff; /* cor do back do Read More */
+			color: #000000; /* cor do read more */
+			text-transform: uppercase;
+			-webkit-box-shadow: 0 0 1px #000;
+        -moz-box-shadow: 0 0 1px #000;
+			box-shadow: 0 0 1px #000;
 }
-				
