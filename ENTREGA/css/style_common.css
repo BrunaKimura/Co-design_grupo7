@@ -1,9 +1,9 @@
 .view {
    width: 200px;
    height: 300px;
-   margin:  10px;
+   /*margin:  10px;*/
    float: left;
-   border: 5px solid #fff; /* cor da borda */
+   border: 8px solid #9C7453; /* cor da borda */
    overflow: hidden;
    position: relative;
    text-align: center;
