@@ -29,7 +29,7 @@ h3 {
 }
 
 body{
-	    width:1024px;
+	   width:1024px;
 
 	}
 
@@ -73,13 +73,13 @@ body{
 }
 
 .caixalink a{
-	    display: inline-block;
-			text-decoration: none;
-			padding: 7px 14px;
-			background: #ffffff; /* cor do back do Read More */
-			color: #000000; /* cor do read more */
-			text-transform: uppercase;
-			-webkit-box-shadow: 0 0 1px #000;
-        -moz-box-shadow: 0 0 1px #000;
-			box-shadow: 0 0 1px #000;
+    display: inline-block;
+	text-decoration: none;
+	padding: 7px 14px;
+	background: #ffffff; /* cor do back do Read More */
+	color: #000000; /* cor do read more */
+	text-transform: uppercase;
+	-webkit-box-shadow: 0 0 1px #000;
+    -moz-box-shadow: 0 0 1px #000;
+	box-shadow: 0 0 1px #000;
 }
