@@ -17,7 +17,7 @@
    -o-transition: all 0.4s ease-in-out;
    -ms-transition: all 0.4s ease-in-out;
    transition: all 0.4s ease-in-out;
-   background: url(image/eletronica2.jpg); /* Mudar foto HOVER */
+   background: url(../image/Teste.jpeg); /* Mudar foto HOVER */
 }
 
 .view-first .mask.blue {
@@ -30,7 +30,7 @@
    -o-transition: all 0.4s ease-in-out;
    -ms-transition: all 0.4s ease-in-out;
    transition: all 0.4s ease-in-out;
-   background: url(image/eletronica2.jpg); /* Mudar foto HOVER */
+   background: url(../image/Teste.jpeg); /* Mudar foto HOVER */
 }
 
 .view-first .mask.laranja {
@@ -43,7 +43,7 @@
    -o-transition: all 0.4s ease-in-out;
    -ms-transition: all 0.4s ease-in-out;
    transition: all 0.4s ease-in-out;
-   background: url(image/eletronica2.jpg); /* Mudar foto HOVER */
+   background: url(../image/Teste.jpeg); /* Mudar foto HOVER */
 }
 
 .view-first .mask.verde {
@@ -56,7 +56,7 @@
    -o-transition: all 0.4s ease-in-out;
    -ms-transition: all 0.4s ease-in-out;
    transition: all 0.4s ease-in-out;
-   background: url(image/eletronica2.jpg); /* Mudar foto HOVER */
+   background: url(../image/Teste.jpeg); /* Mudar foto HOVER */
 }
 
 .view-first h2 {
