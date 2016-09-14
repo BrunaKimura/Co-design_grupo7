@@ -1,6 +1,9 @@
 
 body {
 	background-color: #000000;
+	background-image: url("../image/Background_projetos2.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: #ffffff;
 	margin-top: 20px;
 	margin-bottom: 50px;
@@ -13,19 +16,19 @@ body {
 }
 h1 {
 	text-align: center;
-	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 	font-size: 80px;
 	letter-spacing: 10px;
 }
 h2 {
 	text-align: center;
-	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 	font-size: 30px;
 	position: relative;
 }
 h3 {
 	text-align: center;
-	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 }
 
 body{

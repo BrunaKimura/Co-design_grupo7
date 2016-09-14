@@ -3,7 +3,7 @@ h1 {
 	font-size: 30px;
 	text-align: center;
 	color: #ffffff;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 
 body {
@@ -19,12 +19,11 @@ body {
 	background-size: cover;
 }
 
-img {
+/*img {
 	border-color: #ffffff;
 	border: 5px;
 	float: right;
 	width: 200px;
 	height: 260px;
 	margin-left: 25px;
-}
-
+}*/
