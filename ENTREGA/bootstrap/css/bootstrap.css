@@ -5251,16 +5251,17 @@ a.thumbnail.active {
   padding: 10px 15px;
   margin-bottom: -1px;
   background-color: #ffe4b5; /* AQUI MUDA A PARADA */
+  background-image: url(../../image/Imagem3.jpg);
   border: 1px solid #ddd;
 }
 .list-group-item:first-child {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 .list-group-item:last-child {
   margin-bottom: 0;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 a.list-group-item,
 button.list-group-item {
