@@ -4,16 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>Teste Bootstrap</title>
 
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="bootstrap/css/style.css" rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css?family=Raleway:400,800,300" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/demo.css">
-    <link rel="stylesheet" type="text/css" href="css/set3.css">
 
  </head>
 
@@ -50,7 +45,6 @@
 
         <div class = "row" >
             <div class = 'col-md-12'>
-
             <h1>Eletrônica<h1>
             <hr align="left" noshade="noshade" size="2" width="100%" />
             </div>
@@ -58,8 +52,10 @@
 
         <div class ="row">
             <div class = "col-md-10 col-md-offset-1">
+            <a href="MAINPAGE.html" class="btn btn-info btn-lg" role="button">
+                <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>
 
-                <a href="MAINPAGE.html" type="button" class="btn btn-default btn-lg">
+            <a href="MAINPAGE.html" type="button" class="btn btn-default btn-lg">
                 <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>
 
             </div>
@@ -68,35 +64,47 @@
         <div class ="row">
 
             <div class = "col-md-10 col-md-offset-1">
-
-                <div class = "grid">
-                    <figure class="effect-dexter">
-                        <img src="img/19.jpg" alt="img19">
-                        <figcaption>
-                            <h2>Estação <span>Metereológica</span></h2>
-                            <p>Resumo do projeto.</p>
-                            <a href="#">View more</a>
-                        </figcaption>           
-                    </figure>
-                    
-                    <figure class="effect-dexter">
-                        <img src="img/19.jpg" alt="img19">
-                        <figcaption>
-                            <h2>Estação <span>Metereológica</span></h2>
-                            <p>Resumo do projeto.</p>
-                            <a href="#">View more</a>
-                        </figcaption>           
-                    </figure>
+            <div class="list-group">
+            <ul class="list-group-item">
+                <div class="media-left">
+                    <a href="#">
+                    <div class=" img-thumbnail">
+                        <img class="media-object" src="image/ovelha.jpg" width="100" height="120" alt="...">
+                    </a>
+                    </div>
                 </div>
-
+            <div class="media-body">
+                <h4 class="media-heading">Media heading</h4>
+                ... Texto da descrição ...
             </div>
 
+            </div>
+        
+        </ul>
+        </div>
         </div>
 
         <div class ="row">
             <div class = "col-md-10 col-md-offset-1">
-            
+                
+                <ul class="list-group">
+                <li class="list-group-item">
+
+            <div class="media-body">
+                <h4 class="media-heading">Media heading</h4>
+                ... Texto da descrição ...
             </div>
+            <div class="media-right">
+                <a href="#">
+                <div class=" img-thumbnail">
+                    <img class="media-object" src="image/ovelha.jpg" width="100" height="120" alt="...">
+                </a>
+                </div>
+            </div>
+            </div>
+        
+        </li>
+        </ul>
         </div>
 
     </div>
