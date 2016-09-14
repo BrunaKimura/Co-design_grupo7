@@ -5250,7 +5250,7 @@ a.thumbnail.active {
   display: block;
   padding: 10px 15px;
   margin-bottom: -1px;
-  background-color: #fff;
+  background-color: #ffe4b5; /* AQUI MUDA A PARADA */
   border: 1px solid #ddd;
 }
 .list-group-item:first-child {
