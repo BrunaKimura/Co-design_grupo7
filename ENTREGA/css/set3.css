@@ -50,11 +50,6 @@
 	backface-visibility: hidden;
 }
 
-.grid figure figcaption::before,
-.grid figure figcaption::after {
-	pointer-events: none;
-}
-
 .grid figure figcaption,
 .grid figure figcaption > a {
 	position: absolute;
@@ -119,7 +114,7 @@ figure.effect-dexter figcaption::after {
 	right: 30px;
 	bottom: 30px;
 	left: 30px;
-	height: -webkit-calc(50% - 30px);
+	
 	height: calc(50% - 30px);
 	border: 7px solid #fff;
 	content: '';
