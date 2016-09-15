@@ -1,7 +1,6 @@
 
 body {
 	background-color: #000000;
-	background-image: url("../image/Background_projetos2.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #ffffff;
@@ -25,6 +24,7 @@ h2 {
 	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 	font-size: 30px;
 	position: relative;
+
 }
 h3 {
 	text-align: center;
