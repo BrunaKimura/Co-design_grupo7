@@ -17,7 +17,7 @@
    -o-transition: all 0.4s ease-in-out;
    -ms-transition: all 0.4s ease-in-out;
    transition: all 0.4s ease-in-out;
-   background: url(../image/IMG_7368.jpg); /* Mudar foto HOVER */
+   background: url(../image/IMG_73681.jpg); /* Mudar foto HOVER */
    background-repeat: no-repeat;
    background-size: cover;
 }
@@ -96,6 +96,8 @@
    -o-transition: all 0.2s linear;
    -ms-transition: all 0.2s linear;
    transition: all 0.2s linear;
+   color: rgb(255,255,255);
+   text-shadow: rgb(0,0,0) 5px 5px 5px;
 }
 .view-first:hover img {
    -webkit-transform: scale(1.1,1);
