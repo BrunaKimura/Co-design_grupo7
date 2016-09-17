@@ -1,10 +1,171 @@
 
+body {
+   background-color: #000000;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #ffffff;
+   margin-top: 20px;
+   margin-bottom: 50px;
+   margin-right: 180px;
+   margin-left: 180px;
+   align-self: center;
+   text-align: center;
+   font-size: 15px;
+   padding-left: 15px;
+}
+h1 {
+   text-align: center;
+   font-family: Impact, Charcoal, sans-serif;
+   font-size: 80px;
+   letter-spacing: 10px;
+}
+h2 {
+   text-align: center;
+   font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+   font-size: 30px;
+   position: relative;
+
+}
+h3 {
+   text-align: center;
+   font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+
+body{
+      width:1024px;
+
+}
+.view {
+   width: 180px;
+   height: 250px;
+   margin:  5px;
+   float: left;
+   border: 5px solid #fff; /* cor da borda */
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   cursor: default;
+   background: #fff url(../images/bgimg.jpg) no-repeat center center;
+}
+.view .mask,.view .content { /* .content faz os textos ficarem ao lado da imagem */
+   width: 180px;
+   height: 250px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.view img {
+   display: block;
+   position: relative; 
+}
+.view h2 {
+   text-transform: uppercase;
+   color: #fff; /* cor do titulo */
+   text-align: center;
+   position: relative;
+   font-size: 17px;
+   padding: 10px;
+   background: rgba(0, 0, 0, 0.8); /* cor do back do titulo */
+   margin: 20px 0 0 0;
+}
+.view p {
+   font-family: Georgia, serif;
+   font-style: italic;
+   font-size: 18px;
+   position: relative;
+   color: #fff; /* cor do texto */
+  /* padding: 10px 20px 20px;*/
+   text-align: center;
+}
+.view a.info {
+   display: inline-block;
+   text-decoration: none;
+   padding: 7px 14px;
+   background: #000; /* cor do back do Read More */
+   color: #fff; /* cor do read more */
+   text-transform: uppercase;
+   -webkit-box-shadow: 0 0 1px #000;
+   -moz-box-shadow: 0 0 1px #000;
+   box-shadow: 0 0 1px #000;
+}
+.view a.info{
+   -webkit-box-shadow: 0 0 5px #000;
+   -moz-box-shadow: 0 0 5px #000;
+   box-shadow: 0 0 5px #000;
+}
+
+.areaImagem{
+    
+    margin-top:10px;
+
+}
+
+.areaImagem img{
+    width:100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.areaImagem2 img{
+   width:160px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.areaTexto p{
+    float:right;
+    max-width:800px;
+    margin-left:10px;
+}
+
+.areaLink a{
+   float:left;
+    max-width:100px;
+    margin-top:90px;
+    margin-left:15px;
+    margin-right:700px;
+}
+
+.centro {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.caixalink a{
+    display: inline-block;
+   text-decoration: none;
+   padding: 7px 14px;
+   background: #ffffff; /* cor do back do Read More */
+   color: #000000; /* cor do read more */
+   text-transform: uppercase;
+   -webkit-box-shadow: 0 0 1px #000;
+    -moz-box-shadow: 0 0 1px #000;
+   box-shadow: 0 0 1px #000;
+}
+
 .view-first img {
    -webkit-transition: all 0.2s linear;
    -moz-transition: all 0.2s linear;
    -o-transition: all 0.2s linear;
    -ms-transition: all 0.2s linear;
    transition: all 0.2s linear;
+}
+
+.view-first .mask.amarelo {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   background-color: rgba(232, 229, 33, 0.5) ; /* cor do bagui que era laranja */
+   -webkit-transition: all 0.4s ease-in-out;
+   -moz-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   -ms-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;
+   /*background: url(../image/IMG_7369.jpg); /* Mudar foto HOVER
+   background-repeat: no-repeat;
+   background-size: cover;*/
 }
 
 .view-first .mask.roxo{
@@ -17,39 +178,39 @@
    -o-transition: all 0.4s ease-in-out;
    -ms-transition: all 0.4s ease-in-out;
    transition: all 0.4s ease-in-out;
-   background: url(../image/IMG_73681.jpg); /* Mudar foto HOVER */
+   /*background: url(../image/IMG_73681.jpg); Mudar foto HOVER
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: cover; */
 }
 
 .view-first .mask.blue {
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
-   background-color: rgba(0, 84, 255, 0.1) ; /* cor do bagui que era laranja */
+   background-color: rgba(0, 84, 255, 0.5) ; /* cor do bagui que era laranja */
    -webkit-transition: all 0.4s ease-in-out;
    -moz-transition: all 0.4s ease-in-out;
    -o-transition: all 0.4s ease-in-out;
    -ms-transition: all 0.4s ease-in-out;
    transition: all 0.4s ease-in-out;
-   background: url(../image/IMG_7366.jpg); /* Mudar foto HOVER */
+   /* background: url(../image/IMG_7366.jpg);  Mudar foto HOVER 
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: cover; */
 }
 
 .view-first .mask.laranja {
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
-   background-color: rgba(255, 80, 33, 0.4) ; /* cor do bagui que era laranja */
+   background-color: rgba(232, 155, 15, 0.6) ; /* cor do bagui que era laranja */
    -webkit-transition: all 0.4s ease-in-out;
    -moz-transition: all 0.4s ease-in-out;
    -o-transition: all 0.4s ease-in-out;
    -ms-transition: all 0.4s ease-in-out;
    transition: all 0.4s ease-in-out;
-   background: url(../image/IMG_7365.jpg); /* Mudar foto HOVER */
+   /*background: url(../image/IMG_7365.jpg); /* Mudar foto HOVER
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: cover;*/
 }
 
 .view-first .mask.verde {
@@ -62,9 +223,9 @@
    -o-transition: all 0.4s ease-in-out;
    -ms-transition: all 0.4s ease-in-out;
    transition: all 0.4s ease-in-out;
-   background: url(../image/IMG_7369.jpg); /* Mudar foto HOVER */
+   /*background: url(../image/IMG_7369.jpg); /* Mudar foto HOVER 
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: cover;*/
 }
 
 .view-first h2 {
@@ -147,3 +308,4 @@
    -ms-transition-delay: 0.2s;
    transition-delay: 0.2s;
 }
+
