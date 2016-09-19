@@ -1,13 +1,19 @@
 h1 {
-	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-	font-size: 30px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font: 30px;
 	text-align: center;
 	color: #ffffff;
 	margin-bottom: 40px;
 }
 
+p{
+	color: #000000;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+}
+
 body {
-	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 15px;
 	text-align: left;
 	color: #ffffff;
@@ -19,11 +25,3 @@ body {
 	background-size: cover;
 }
 
-/*img {
-	border-color: #ffffff;
-	border: 5px;
-	float: right;
-	width: 200px;
-	height: 260px;
-	margin-left: 25px;
-}*/
