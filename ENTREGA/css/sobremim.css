@@ -3,7 +3,7 @@ body {
    background-color: #000000;
    background-repeat: no-repeat;
    background-size: cover;
-   color: #ffffff;
+   color: #000000;
    margin-top: 20px;
    margin-bottom: 50px;
    margin-right: 180px;
@@ -24,6 +24,8 @@ h2 {
    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
    font-size: 30px;
    position: relative;
+   color: #000000;
+   font-weight: bold;
 
 }
 h3 {
@@ -34,6 +36,10 @@ h3 {
 body{
       width:1024px;
 
+
+}
+p {
+   font-weight: bold;
 }
 .view {
    width: 180px;
