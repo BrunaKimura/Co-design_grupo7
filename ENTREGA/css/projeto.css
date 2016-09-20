@@ -10,6 +10,8 @@ p{
 	color: #000000;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-weight: bold;
+	margin-bottom: 200px;
+
 }
 
 body {
@@ -21,6 +23,7 @@ body {
 	margin-left: 100px;
 	margin-right: 100px;
 	background-image: url("../image/Imagem3.jpg");
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
