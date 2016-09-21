@@ -50,8 +50,8 @@ h1 {
     color: #f5f5f5;
     /*text-shadow: #9C7453 2px 2px 2px;*/
     font-weight: bold;
-    padding-bottom: 0px
-    ;
+    padding-bottom: 0px;
+    text-shadow: 2px 2px #000000;
 }
 
 .container{
