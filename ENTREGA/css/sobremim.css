@@ -167,7 +167,7 @@ p {
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
-   background-color: rgba(232, 229, 33, 0.5) ; /* cor do bagui que era laranja */
+   background-color: rgba(232, 229, 33, 0.7) ; /* cor do bagui que era laranja */
    -webkit-transition: all 0.4s ease-in-out;
    -moz-transition: all 0.4s ease-in-out;
    -o-transition: all 0.4s ease-in-out;
