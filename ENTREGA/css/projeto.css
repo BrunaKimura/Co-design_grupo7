@@ -1,6 +1,6 @@
 h1 {
-	font-family: Tahoma, Geneva, sans-serif;
-	font: 30px;
+	font-family: oinegrito;
+	font-size: 60px;
 	text-align: center;
 	color: #ffffff;
 	margin-bottom: 40px;
@@ -9,14 +9,15 @@ h1 {
 
 p{
 	color: #000000;
-	font-family: Tahoma, Geneva, sans-serif;
+	font-family: oinormal;
 	font-weight: bold;
 	margin-bottom: 200px;
+	font-size: 20px;
 
 }
 
 body {
-	font-family: Tahoma, Geneva, sans-serif;
+	font-family: oinormal;
 	font-size: 15px;
 	text-align: left;
 	color: #ffffff;
@@ -29,3 +30,12 @@ body {
 	background-size: cover;
 }
 
+@font-face {
+     font-family: oinormal;
+     src: url('fonts/economica.regular.ttf');
+}
+
+@font-face {
+     font-family: oinegrito;
+     src: url('fonts/economica.bold.ttf');
+}
