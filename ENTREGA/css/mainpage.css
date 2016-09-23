@@ -248,7 +248,7 @@ h3 {
 }
 .view p {
    font-family: oinormal;
-   font-style: italic;
+   font-style: bold;
    font-size: 20px;
    position: relative;
    color: #fff; /* cor do texto */
