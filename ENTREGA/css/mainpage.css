@@ -8,7 +8,7 @@ body {
 	margin-top: 10px;
 	margin-bottom: 50px;
 	margin-right: 180px;
-	margin-left: 180px;
+	margin-left: 150px;
 	align-self: center;
 	align-items: center;
 }
@@ -17,7 +17,7 @@ h1 {
 	text-align: center;
 	font-family: oinegrito;
 	font-size: 120px;
-	letter-spacing: 10px;
+	letter-spacing: 8px;
 	color: #ffd700;
 	/*text-shadow: #9C7453 2px 2px 2px;*/
 	font-weight: bold;
@@ -140,6 +140,7 @@ h3 {
    -o-transition: all 0.2s ease-in-out;
    -ms-transition: all 0.2s ease-in-out;
    transition: all 0.2s ease-in-out;
+   font-family: oinegrito;
 }
 .view-first p {
    -webkit-transform: translateY(100px);
@@ -157,6 +158,7 @@ h3 {
    transition: all 0.2s linear;
    color: rgb(255,255,255);
    text-shadow: rgb(0,0,0) 5px 5px 5px;
+   font-family: oinormal;
 }
 .view-first:hover img {
    -webkit-transform: scale(1.1,1);
@@ -191,6 +193,7 @@ h3 {
    -o-transform: translateY(0px);
    -ms-transform: translateY(0px);
    transform: translateY(0px);
+   font-family: oinegrito;
 }
 .view-first:hover p {
    -webkit-transition-delay: 0.1s;
@@ -198,6 +201,7 @@ h3 {
    -o-transition-delay: 0.1s;
    -ms-transition-delay: 0.1s;
    transition-delay: 0.1s;
+   font-family: oinegrito;
 }
 .view-first:hover a.info {
    -webkit-transition-delay: 0.2s;
@@ -205,6 +209,7 @@ h3 {
    -o-transition-delay: 0.2s;
    -ms-transition-delay: 0.2s;
    transition-delay: 0.2s;
+   font-family: oinegrito;
 }
 .view {
    width: 200px;
@@ -235,19 +240,21 @@ h3 {
    color: #fff; /* cor do titulo */
    text-align: center;
    position: relative;
-   font-size: 17px;
+   font-size: 22px;
    padding: 10px;
    background: rgba(0, 0, 0, 0.8); /* cor do back do titulo */
-   margin: 20px 0 0 0;
+   margin: 10px 0 0 0;
+   font-family: oinormal;
 }
 .view p {
-   font-family: Georgia, serif;
-   font-style: italic;
-   font-size: 18px;
+   font-family: oinormal;
+   font-style: bold;
+   font-size: 20px;
    position: relative;
    color: #fff; /* cor do texto */
   /* padding: 10px 20px 20px;*/
    text-align: center;
+   text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black
 }
 .view a.info {
    display: inline-block;
@@ -259,9 +266,11 @@ h3 {
    -webkit-box-shadow: 0 0 1px #000;
    -moz-box-shadow: 0 0 1px #000;
    box-shadow: 0 0 1px #000;
+   font-family: oinegrito;
 }
 .view a.info{
    -webkit-box-shadow: 0 0 5px #000;
    -moz-box-shadow: 0 0 5px #000;
    box-shadow: 0 0 5px #000;
+   font-family: oinegrito;
 }
