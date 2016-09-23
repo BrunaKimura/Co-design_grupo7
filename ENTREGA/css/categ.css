@@ -2,6 +2,7 @@ body #cdawrap {
     background: none;
     top: 50px;
     border: none;
+    margin-left: 300px;
 }
 
 body #cdawrap a {
@@ -45,6 +46,7 @@ section {
 
 h1 {
     text-align: center;
+    position: center;
     font-family: oinegrito;
     font-size: 80px;
     letter-spacing: 1px;
